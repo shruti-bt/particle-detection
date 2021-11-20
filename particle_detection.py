@@ -1,12 +1,10 @@
+def particle_detection(input_string):
+    r"""TO BE DOCUMENTED"""
+    output = (input_string.split('|'))[-1]
 
-def particle_detection():
-    a = "Sphere|0.2334|FBS"
-    b = (a.split('|'))[-1]
-    
-    if b == "FBS":
-        print("Fragment")
-    elif b == "SBF":
-        print("Sphere")
+    if output == "FBS":
+        return "Fragment"
+    elif output == "SBF":
+        return "Sphere"
     else:
-        print(b)
-particle_detection()
+        return output
