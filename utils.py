@@ -1,4 +1,4 @@
-def particle_detection(input_string):
+def check_title(input_string):
     r"""TO BE DOCUMENTED"""
     output = (input_string.split('|'))[-1]
 
